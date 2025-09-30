@@ -5,9 +5,9 @@ const nota3 = 7;
 const media = (nota1 + nota2 + nota3) / 3;
 
 if (media < 5) {
-    console.log('Reprovado')
+    console.log('Reprovado');
 } else if (media >= 7) {
-    console.log('Aprovado')
+    console.log('Aprovado');
 } else {
-    console.log('Recuperação')
+    console.log('Recuperação');
 }
