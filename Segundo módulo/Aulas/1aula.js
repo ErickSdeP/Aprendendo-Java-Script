@@ -3,10 +3,10 @@ function teste() {
 }
 teste()
 
-function yourName(nome) {
-    console.log('Seu nome é: ' + nome)
+function yourName(nome, sobrenome) {
+    console.log('Seu nome é: ' + nome + ' ' + sobrenome)
 }
 
-yourName('Erick');
-yourName('Amanda');
-yourName('Zaza');
+yourName('Erick', 'Santos');
+yourName('Amanda', 'Axt');
+yourName('Yasmin', 'Zamuraym');
