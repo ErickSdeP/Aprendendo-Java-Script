@@ -1,5 +1,5 @@
-const altura = 2;
-const peso = 120;
+const altura = 1.75;
+const peso = 80;
 
 const imc = peso / (altura * altura);
 
