@@ -2,7 +2,7 @@ class Pessoa {
     nome;
     idade;
     anoNascimento;
-    anoAtual = 2025;
+    anoAtual = 2026;
 
     constructor(nome, idade) { 
         this.nome = nome;
