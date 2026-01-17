@@ -8,7 +8,7 @@ for (let i = 3; i < nome.length; i++) {
 
 /*
 for (let index = 0;                (Começando pelo 0 diz onde começa, sendo 0 o "E" do meu nome e o 2 o "i")
-    index < array.length;          (array.length = ao numero maximo (mostrar na próxima aula))
+    index < array.length;          (array.length = ao numero maximo (mostrar no próximo exercício))
     index++) {                     (está falando q vai somar...)
     
     const element = array[index];  (oq vai somar)
