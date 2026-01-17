@@ -1,7 +1,4 @@
-
 const nome = 'Erick Santos de Paula'
-
-
 
 for (let i = 3; i < nome.length; i++) {
     const letra = nome[i];
