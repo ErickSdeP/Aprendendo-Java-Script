@@ -8,6 +8,6 @@ for (let i = 0; i <= 100; i++){
     const numero = i;
     if (numero % 2 === 0) {
         console.log(numero);
-    }
+    } 
 
 }
