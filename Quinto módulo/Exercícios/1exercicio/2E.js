@@ -18,8 +18,26 @@ for (let i = 0; i < sorteio.length; i++) {
 print(maiorValor)
 
 
+/*Forma simplificada
 
-/*Explicação do código 
+const {gets, print} = require('./1E');
+
+let maiorValor = 0;
+
+for (let i = 0; i < 5; i++) {
+    const sorteio = gets();
+    if (sorteio>maiorValor) {
+        maiorValor = sorteio;
+    }
+}
+
+print(maiorValor)
+
+*/
+
+
+
+/*Explicação do código
     Vai ser dificil explicar mas bora lá.
     linha 1: serve só para importar as coisas do 1E;
     linha 3: só cria uma lista com o nome de "sorteio";
