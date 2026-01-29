@@ -1,5 +1,5 @@
 function dobro(numero) {
-    return numero * 2
+    return numero * 2;
 }
 
-console.log(dobro(1))
+console.log(dobro(5))
