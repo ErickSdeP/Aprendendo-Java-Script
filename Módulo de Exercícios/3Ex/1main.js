@@ -31,13 +31,14 @@ function imposto(salario) {
 
     if (salario >= 0 && salario <= 1100) {
         return 5;
-    } else if (salario >= 1100.01 && salario <= 2500) {
+    } else if (salario > 1100 && salario <= 2500) {
         return 10;
     } else {
         return 15;
     }
 }
 
-const salarioLiquido = (salarioBruto - porcentagem(salarioBruto, imposto(salarioBruto))) + adicional;
+const valorImposto = (porcentagem(salarioBruto, imposto(salarioBruto)))
+const salarioLiquido = (salarioBruto - valorImposto + adicional);
 
-print('Seu salário é de ' + salarioLiquido + ' reais')
+print(`Seu salário é de ${salarioLiquido} reais`)
